@@ -4,5 +4,6 @@ channels:
   - r
   - defaults
 dependencies:
-- pip:
-  - tmhmm-py
+  - pip
+  - pip:
+    - tmhmm-py

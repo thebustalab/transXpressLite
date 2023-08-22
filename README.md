@@ -4,6 +4,16 @@ transXpress: a [Snakemake](https://snakemake.readthedocs.io/en/stable/) pipeline
 
 ## Intro
 
+6. Important! Remember that there must be an empty line on the end of the samples.tex file.
+
+Once transXpress is complete, you may wish to move its output files to a long-term storage device. You may wish to keep the following files handy for downstream analysis though:
+
+* all the sample name folders (ex. "fed_epi_hi_rep1")
+* samples.txt
+* samples_trimmed.txt
+* busco_report.txt
+* /transdecoder/longest_orfs.pep
+
 ## Dependencies
 
 transXpress requires:
