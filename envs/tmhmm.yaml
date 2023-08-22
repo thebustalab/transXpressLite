@@ -1,9 +1,0 @@
-channels:
-  - conda-forge
-  - bioconda
-  - r
-  - defaults
-dependencies:
-  - pip
-  - pip:
-    - tmhmm-py
